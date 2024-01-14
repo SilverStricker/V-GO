@@ -6,6 +6,7 @@
 }
 .apply-button:hover {
   background-color: #8B0000; /* Button background color on hover */
+  color: #fff;
 }
 
 
