@@ -1,0 +1,165 @@
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75vh;
+    /* background-color: #333; Dark background color */
+  }
+
+
+  .login-box {
+    /* background-color: #8F8F8F; Darker box background color */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10vh rgba(0, 0, 0, 0.3);
+    text-align: center;
+    color: #fff; /* Text color */
+    width: 100%;
+
+  }
+
+  .email-verification-box {
+    /* background-color: #8F8F8F; Darker box background color */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10vh rgba(0, 0, 0, 0.3);
+    text-align: center;
+    color: #fff; /* Text color */
+    width: 100%;
+
+  }
+
+  @media screen and (min-width: 500px) {
+    .login-box {
+      /* Increase the size for desktop screens */
+      width: 120%; /* Example: increase width */
+      padding: 40px; /* Example: increase padding */
+    }
+  }
+
+  .title {
+    /* existing styles */
+    padding: 10px; /* Adjust the value as needed */
+}
+
+.subtitle {
+    /* existing styles */
+    padding: 10px; /* Adjust the value as needed */
+}
+  
+  h2 {
+    color: #000;
+    margin-bottom: 20px;
+  }
+  h3 {
+    color: #000;
+    margin-bottom: 20px;
+  }
+ 
+  .custom-input-username {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #D3D3D3;
+    color: #000000;
+    font-size: 16px; /* Set the same font size for both username and password */
+    margin-right: 10px;
+  }
+  .custom-input-password {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #D3D3D3;
+    color: #000000;
+    font-size: 16px; /* Set the same font size for both username and password */
+  }
+
+  .custom-input-email {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 4px;
+    color: #000000;
+    font-size: 16px; /* Set the same font size for both username and password */
+    margin-right: 10px;
+  }
+
+  .custom-input-code {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 4px;
+    color: #000000;
+    font-size: 16px; /* Set the same font size for both username and password */
+    margin-right: 10px;
+  }
+
+  .login-button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    /* background-color: #007bff; Button background color */
+    background-color: #FF0000;
+    color: #fff; /* Button text color */
+    cursor: pointer;
+  }
+  
+  .login-button:hover {
+    background-color: #8B0000; /* Button background color on hover */
+  }
+
+  .custom-input-email-button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    /* background-color: #007bff; */
+    background-color: #FF0000;
+    color: #fff; /* Button text color */
+    cursor: pointer;
+  }
+  
+  .custom-input-email-button:hover {
+    background-color: #8B0000; /* Button background color on hover */
+  }
+
+
+  .custom-input-code-button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    /* background-color: #007bff; Button background color */
+    background-color: #FF0000;
+    color: #fff; /* Button text color */
+    cursor: pointer;
+  }
+  
+  .custom-input-code-button:hover {
+    background-color: #8B0000;
+  }
+
+  .Forgot-Password-Button {
+    /* width: 100%;
+    padding: 10px;
+    
+    border-radius: 4px; */
+    /* background-color: #007bff; Button background color */
+    border: none;
+    background-color: #FFF;
+    color: #000;
+    cursor: pointer;
+  }
+  
+  .Forgot-Password-Button:hover {
+    background-color: #FFF;
+    color: #1997a8;
+  }
+  

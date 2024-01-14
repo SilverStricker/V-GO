@@ -1,0 +1,12 @@
+/* Home.css */
+.red-button {
+  background-color: red;
+  color: white;
+  border-color: transparent;
+}
+
+.red-button:hover {
+  background-color: darkred;
+  border-color: transparent;
+  color: white;
+}
