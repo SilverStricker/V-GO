@@ -1,8 +1,6 @@
 import React, { useState } from 'react';
 import './Login.css';
-import styles from './Login.css';
 import { useNavigate } from 'react-router-dom';
-import Navbar from "../components/NavBar";
 import 'bulma/css/bulma.min.css';
 const Login = () => {
   const [username, setUsername] = useState('');
@@ -12,10 +10,10 @@ const Login = () => {
 
   const handleLogin = () => {
     // Implement your login logic here
-    if(username == "admin" && password == "admin"){
-      navigate('/leaveapproval');
+    if(username === "admin" && password === "admin"){
+      navigate('/hostelAuthority');
     }
-    else if(username == "" || password == ""){
+    else if(username === "" || password === ""){
       alert("Not entered either username or password");
     }
     else{
@@ -82,7 +80,6 @@ const Login = () => {
 function LoginScreen(){
   return (
     <div className="App">
-      <Navbar/>
       <Login />
     </div>
   );

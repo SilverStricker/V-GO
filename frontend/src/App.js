@@ -7,6 +7,7 @@ import LoginAdminScreen from './pages/LoginAdmin'
 import LoginParentScreen from './pages/LoginParent'
 import StudentHistoryScreen from './pages/StudentHistory'
 import ProctorHistoryScreen from './pages/ProctorHistory'
+import HostelAuthorityHistoryScreen from './pages/AdminHistory'
 import EmailVerificationForPassword from './pages/EmailVerificationToChangePassword'
 import EmailVerificationForPasswordStudent from './pages/EmailVerificationToChangePasswordStudent'
 import EmailVerificationForPasswordProctor from './pages/EmailVerificationToChangePasswordProctor'
@@ -35,6 +36,7 @@ function App() {
         <Route path = '/leaveapplication' element = {<LeaveApplicationFormScreen />} />
         <Route path="/studenthistory" element={<StudentHistoryScreen />} />
         <Route path="/proctorhistory" element={<ProctorHistoryScreen />} />
+        <Route path="/hostelAuthority" element={<HostelAuthorityHistoryScreen />} />
         <Route path="/leaveapproval" element={<LeaveApprovalPage />} />
         <Route path="/emailverification" element={<EmailVerificationForPassword />} />
         <Route path="/emailverificationstudent" element={<EmailVerificationForPasswordStudent />} />
